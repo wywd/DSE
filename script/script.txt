@@ -1,0 +1,3 @@
+### Note that the -data must be entered in the absolute path
+
+CUDA_VISIBLE_DEVICES=0 th main.lua -data /root/.../tmp/dataset/CUB 2>&1 | tee tmp/results/cub_result.txt
