@@ -1,10 +1,13 @@
+# DSE
+This repository contains the code for the paper "Discriminative Suprasphere Embedding for Fine-Grained Visual Categorization",
+
 ## Requirements:  
   - Install Torch with CUDA GPU     
    Torch {http://torch.ch/docs/getting-started.html}  
   - Install cuDNN and the Torch cuDNN bindings  
    cuDNN bindings {https://github.com/soumith/cudnn.torch/tree/R4}    
   
-## CUB-200-2011 dataset and pretrained ResNet-101 m  odel:  
+## CUB-200-2011 dataset and pretrained ResNet-101 model:  
   - Download CUB-200-2011 {http://www.vision.caltech.edu/visipedia/CUB-200-2011.html}  
   - Download pretrained ResNet-101 model {https://github.com/facebook/fb.resnet.torch/tree/master/pretrained}  
   - Arrange the dataset so that it contains a \train and a \val directory, which each contain sub-directories for every label. For example:  
