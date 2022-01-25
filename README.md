@@ -8,14 +8,18 @@
   - Download CUB-200-2011 {http://www.vision.caltech.edu/visipedia/CUB-200-2011.html}  
   - Download pretrained ResNet-101 model {https://github.com/facebook/fb.resnet.torch/tree/master/pretrained}  
   - Arrange the dataset so that it contains a \train and a \val directory, which each contain sub-directories for every label. For example:  
+      ```bash
       "train/<label1>/<image.jpg>  
        train/<label2>/<image.jpg>  
        val/<label1>/<image.jpg>  
        val/<label2>/<image.jpg>"  
+       ```
    To achieve this step you can use these files,  
+      ```bash
       \tmp\dataset\move.py    
       \tmp\dataset\train_images.txt    
       \tmp\dataset\test_images.txt    
+      ```
   - Place the rearranged dataset in tmp\dataset\CUB  
   - Place the pretrained ResNet-101 model in tmp\models    
   
