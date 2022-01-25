@@ -1,5 +1,5 @@
 # DSE
-This repository contains the code for the paper "Discriminative Suprasphere Embedding for Fine-Grained Visual Categorization"
+This repository contains the code for the paper "**Discriminative Suprasphere Embedding for Fine-Grained Visual Categorization**"
 
 ## Requirements:  
   - Install Torch with CUDA GPU     
