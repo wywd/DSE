@@ -14,7 +14,7 @@
        val/<label1>/<image.jpg>  
        val/<label2>/<image.jpg>"  
        ```
-   To achieve this step you can use these files,  
+   - To achieve this step you can use these files,  
       ```bash
       \tmp\dataset\move.py    
       \tmp\dataset\train_images.txt    
