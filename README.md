@@ -3,9 +3,9 @@ This repository contains the code for the paper "**Discriminative Suprasphere Em
 
 ## Requirements:  
   - Install Torch with CUDA GPU     
-   Torch {http://torch.ch/docs/getting-started.html}  
+   Torch {http://torch.ch/docs/getting-started.html }  
   - Install cuDNN and the Torch cuDNN bindings  
-   cuDNN bindings {https://github.com/soumith/cudnn.torch/tree/R4}    
+   cuDNN bindings {https://github.com/soumith/cudnn.torch/tree/R4 }    
   - **Notes:** For convenience, we recommend using [docker](https://hub.docker.com/)
   
 ## CUB-200-2011 dataset and pretrained ResNet-101 model:  
