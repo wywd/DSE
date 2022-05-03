@@ -9,8 +9,8 @@ This repository contains the code for the paper "**Discriminative Suprasphere Em
   - **Notes:** For convenience, we recommend using [docker](https://hub.docker.com/)
   
 ## CUB-200-2011 dataset and pretrained ResNet-101 model:  
-  - Download CUB-200-2011 {http://www.vision.caltech.edu/visipedia/CUB-200-2011.html}  
-  - Download pretrained ResNet-101 model {https://github.com/facebook/fb.resnet.torch/tree/master/pretrained}  
+  - Download CUB-200-2011 {http://www.vision.caltech.edu/visipedia/CUB-200-2011.html }  
+  - Download pretrained ResNet-101 model {https://github.com/facebook/fb.resnet.torch/tree/master/pretrained }  
   - Arrange the dataset so that it contains a `\train` and a `\val` directory, which each contain sub-directories for every label. For example:  
       ```bash
       "train/<label1>/<image.jpg>  
